@@ -8,9 +8,15 @@
     <hr />
   </div>
   <div class="content__description">
-    <a [routerLink]="['']"><< Voltar</a>
+
     <p>
       {{ contentDescription }}
     </p>
+
+    <a [routerLink]="['']">
+      <button type="button" class="content__button">
+        << Voltar
+      </button>
+    </a>
   </div>
 </div>
